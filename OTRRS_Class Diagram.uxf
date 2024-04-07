@@ -1,0 +1,80 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>980</x><y>320</y><w>210</w><h>320</h></coordinates><panel_attributes>Renter
+--
+-re_ID: int
+-re_name: string
+-re_sex: string
+-re_address: string
+-re_bloodgroup: string
+-re_dob: Date
+-re_nid: int
+-re_phone: int
+-re_carorbike_no: string
+-re_carorbike_name: string 
+-re_password: string
+--
++RenterList(): void
++Re_addInfo(): void
++Re_editInfo(): void
++Re_forgetpassword(): void
++Re_resetpassword(): void
++Re_viewtransactionhistory(): void
++confirmRent(): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>770</x><y>100</y><w>140</w><h>90</h></coordinates><panel_attributes>Admin
+--
+-ID: string
+-Password: sting
+--
++VerifyLogin(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>730</x><y>320</y><w>210</w><h>320</h></coordinates><panel_attributes>Rider
+--
+-ri_ID: int
+-ri_name: string
+-ri_sex: string
+-ri_address: string
+-ri_bloodgroup: string
+-ri_dob: Date
+-ri_nid: int
+-ri_phone: int
+-ri_carorbike_no: string
+-ri_carorbike_name: string 
+-ri_password: string
+--
++RiderList(): void
++Rider_addInfo(): void
++Rider_editInfo(): void
++Rider_forgetpassword(): void
++Rider_resetpassword(): void
++Rider_viewtransactionhistory(): void
++confirmRide(): void()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>340</y><w>210</w><h>270</h></coordinates><panel_attributes>User
+--
+-u_ID: int
+-u_name: string
+-u_sex: string
+-u_address: string
+-u_bloodgroup: string
+-u_dob: Date
+-u_nid: int
+-u_phone: int
+-upassword: string
+--
++userList(): void
++addInfo(): void
++editInfo(): void
++forgetpassword(): void
++resetpassword(): void
++viewtransactionhistory(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>140</y><w>270</w><h>220</h></coordinates><panel_attributes>lt=-
+m1=1..1
+m2=1..*
+</panel_attributes><additional_attributes>250;20;10;20;10;200</additional_attributes></element><element><id>Relation</id><coordinates><x>820</x><y>180</y><w>50</w><h>160</h></coordinates><panel_attributes>lt=-
+m1=1..1
+m2=1..*
+</panel_attributes><additional_attributes>10;10;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>140</y><w>230</w><h>200</h></coordinates><panel_attributes>lt=-
+m1=1..1
+m2=1..*
+</panel_attributes><additional_attributes>10;20;190;20;190;180</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>460</y><w>120</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1..1
+m2=1..*
+</panel_attributes><additional_attributes>10;20;100;20</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>600</y><w>610</w><h>140</h></coordinates><panel_attributes>lt=-
+m1=1..1
+m2=1..*
+</panel_attributes><additional_attributes>10;10;10;120;570;120;570;40</additional_attributes></element></diagram>
